@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/avengers-infinity-war-1553438735.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  background: black;
+  height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#app-title {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+.nav-btn {
+  background: darkcyan;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+ position: relative;
+  top: -1px;
+}
+
+main {
+  position: relative;
+  display: flex;
+  top: 10%;
+  left: 25%;
+  height: 70vh;
+  width: 100vh;
+
+}
+
+#left {
+  height: 100%;
+  width: 40%;
+}
+
+#right {
+  height: 99.5%;
+  width: 60%;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#hero-title {
+  height: 10%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: serif;
+  background-color: darkcyan;
+  color: white;
+}
+
+#about {
+  display: flex;
+  height: 90%;
+  width: 100%;
+}
+
+.cate {
+  font-size: 1.5rem;
+ font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  padding: 5px;
+}
+
+#powerstats,
+#biography {
+  width: 70%;
+  height: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#about-bio,
+#about-power {
+  margin-top: 20%;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}

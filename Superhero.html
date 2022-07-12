@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>SuperHero</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Local css -->
+    <link rel="stylesheet" type="text/css" href="Superhero.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <span id="app-title">Superhero Hunter</span>
+      <div>
+        <button class="nav-btn" onclick="window.location.href='index.html'">
+          Home
+        </button>
+        <button
+          class="nav-btn"
+          onclick="window.location.href='favourites.html'"
+        >
+          Favourites
+        </button>
+      </div>
+    </div>
+    <main>
+      <div id="left">
+        <img id="avatar" />
+      </div>
+      <div id="right">
+        <div id="hero-title"></div>
+        <div id="about">
+          <div id="powerstats">
+            <span class="cate">Powerstats</span>
+            <ul id="about-power">
+              <li id="intelligence"></li>
+              <li id="strength"></li>
+              <li id="speed"></li>
+              <li id="durability"></li>
+              <li id="power"></li>
+              <li id="combat"></li>
+            </ul>
+          </div>
+          <div id="biography">
+            <span class="cate">Biography</span>
+            <ul id="about-bio">
+              <li id="full-name"></li>
+              <li id="alter-egos"></li>
+              <li id="aliases"></li>
+              <li id="place-of-birth"></li>
+              <li id="first-appearance"></li>
+              <li id="publisher"></li>
+              <li id="alignment"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <!-- local JavaScript -->
+  <script type="text/javascript" src="Superhero.js"></script>
+</html>
